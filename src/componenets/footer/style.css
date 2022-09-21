@@ -37,3 +37,9 @@
 .line {
   margin-bottom: 1rem;
 }
+
+@media (max-width:940px) {
+  .footer {
+    font-size:12px ;
+  }
+}

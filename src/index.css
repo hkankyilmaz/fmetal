@@ -21,6 +21,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.2rem;
   line-height: 1.2;
+  overflow-x: hidden;
 }
 
 code {
@@ -59,4 +60,10 @@ a {
   height: 3px;
   margin: 5px auto;
   background-color: var(--primary-color);
+}
+
+@media (max-width:940px) {
+  .body {
+    font-size:12px ;
+  }
 }
