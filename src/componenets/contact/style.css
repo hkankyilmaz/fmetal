@@ -57,6 +57,7 @@
   }
   .demo {
     padding: 10px;
+    padding-bottom: 40px;
   }
   .demo .col-2 {
     width: 100%;
