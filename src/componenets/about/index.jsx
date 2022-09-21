@@ -6,7 +6,7 @@ const About = () => {
     <div className="about" id="about">
       <div className="container">
         <div className="col-2">
-          <h2>About</h2>
+          <h2>Hakkımızda</h2>
           <span className="line"></span>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus

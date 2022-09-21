@@ -108,13 +108,15 @@ h1 .span-two {
     max-width: 100%;
   }
   h1 {
+    position: relative;
+    right: 15px;
     letter-spacing: 0;
     font-size: 20px;
   }
 
   h1 .span-two {
     position: absolute;
-    height: 3px;
+    height: 2px;
     width: 2.5rem;
     background-color: #f5a623;
     right: -7px;
