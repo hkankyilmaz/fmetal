@@ -23,6 +23,11 @@
 @media screen and (max-width: 940px) {
   .testimonials .container {
     width: 100%;
+    padding: 2rem 0rem;
+  }
+  .testimonials .container .content {
+  
+    margin: 2rem 0;
   }
 
   .testimonials .container .content {
@@ -33,4 +38,9 @@
     max-width: 100%;
     margin: 1rem;
   }
+  .testimonials h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
 }
