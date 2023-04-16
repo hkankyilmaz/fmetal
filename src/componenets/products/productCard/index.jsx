@@ -3,7 +3,7 @@ import "./style.css";
 
 const ProductCard = ({ img, text }) => {
   return (
-    <div style={{ background: `url(${img})` }} className="card">
+    <div style={{ backgroundImage: `url(${img})` }} className="card">
       <p>{text} </p>
       <span />
       <p>Detaylar</p>

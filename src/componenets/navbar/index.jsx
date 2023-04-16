@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../../images/logod.png";
+import logo from "../../images/logo.png";
 import { Link } from "react-scroll";
 import "./style.css";
 
@@ -30,9 +30,7 @@ const Navbar = () => {
       <nav className="navbar">
         <a href="/" className="logo">
           <h1>
-            <img width="50px" src={logo} alt="logo" />
-            <span className="span-one">Fmetal</span>
-            <span className="span-two"></span>
+            <img src={logo} alt="logo" />
           </h1>
         </a>
         <div className="hamburger" onClick={handleClick}>

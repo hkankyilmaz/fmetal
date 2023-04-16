@@ -11,6 +11,8 @@
   position: relative;
   z-index: 2;
   transition: all 0.1s ease-in;
+  background-position: center;
+  background-size: cover;
 }
 .card:hover {
   cursor: pointer;
@@ -19,7 +21,7 @@
 
 .card p {
   color: #fff;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: bold;
   margin: 12px;
   z-index: 3;
