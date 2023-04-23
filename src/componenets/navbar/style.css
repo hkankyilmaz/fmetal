@@ -138,6 +138,9 @@ h1 .span-two {
   .hamburger .fa {
     color: white;
   }
+  .hamburger .fa_ {
+    color: black;
+  }
   .hamburger.active .fa {
     color: black;
   }

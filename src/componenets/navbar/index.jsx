@@ -38,9 +38,15 @@ const Navbar = () => {
         </a>
         <div className="hamburger" onClick={handleClick}>
           {click ? (
-            <FaTimes className="fa" size={30} />
+            <FaTimes
+              className={`${path_ !== "/" ? "fa fa_" : "fa"}`}
+              size={30}
+            />
           ) : (
-            <FaBars className="fa" size={30} />
+            <FaBars
+              className={`${path_ !== "/" ? "fa fa_" : "fa"}`}
+              size={30}
+            />
           )}
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
