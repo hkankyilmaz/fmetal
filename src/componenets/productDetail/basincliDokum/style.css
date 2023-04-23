@@ -1,0 +1,39 @@
+.product-info-container p,
+.product-info-container strong {
+  font-size: 1rem;
+}
+.product-info-container tr,
+.product-info-container td {
+  font-size: 1rem;
+}
+
+.product-info-container table,
+.product-info-container th,
+.product-info-container td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.product-info-container td {
+  padding: 5px;
+}
+
+.product-info-container table {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.product-info-container h4 {
+  margin-bottom: 20px;
+  color: #000;
+}
+.product-info-container h5 {
+  margin-bottom: 15px;
+  color: darkred;
+}
+.product-info-container h6 {
+  margin-bottom: 10px;
+}
+.product-info-container span {
+  font-weight: bold;
+  font-size: 0.8rem;
+}

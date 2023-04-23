@@ -1,0 +1,10 @@
+.img-span img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-info-container h6 {
+  margin-top: 10px;
+}

@@ -3,10 +3,14 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../../images/logo.png";
 import { Link } from "react-scroll";
 import "./style.css";
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+  let location = useLocation();
+  let path_ = location.pathname;
+  console.log(path_);
 
   const closeMenu = () => setClick(false);
   useEffect(() => {
@@ -26,7 +30,7 @@ const Navbar = () => {
   });
 
   return (
-    <div className="header">
+    <div className={`header ${path_ !== "/" ? "products-header" : ""}`}>
       <nav className="navbar">
         <a href="/" className="logo">
           <h1>
