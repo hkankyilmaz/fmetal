@@ -10,7 +10,6 @@ const Navbar = () => {
   const handleClick = () => setClick(!click);
   let location = useLocation();
   let path_ = location.pathname;
-  console.log(path_);
 
   const closeMenu = () => setClick(false);
   useEffect(() => {
@@ -57,42 +56,48 @@ const Navbar = () => {
               AnaSayfa
             </Link>
           </li>
-          <li className="nav-item">
-            <Link
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-80}
-              duration={500}
-              onClick={closeMenu}
-            >
-              Hakkımızda
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="testimonials"
-              spy={true}
-              smooth={true}
-              offset={-80}
-              duration={500}
-              onClick={closeMenu}
-            >
-              Ürünlerimiz
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="demo"
-              spy={true}
-              smooth={true}
-              offset={-80}
-              duration={500}
-              onClick={closeMenu}
-            >
-              İletişim
-            </Link>
-          </li>
+          {path_ == "/" ? (
+            <>
+              <li className="nav-item">
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-80}
+                  duration={500}
+                  onClick={closeMenu}
+                >
+                  Hakkımızda
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="testimonials"
+                  spy={true}
+                  smooth={true}
+                  offset={-80}
+                  duration={500}
+                  onClick={closeMenu}
+                >
+                  Ürünlerimiz
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="demo"
+                  spy={true}
+                  smooth={true}
+                  offset={-80}
+                  duration={500}
+                  onClick={closeMenu}
+                >
+                  İletişim
+                </Link>
+              </li>
+            </>
+          ) : (
+            ""
+          )}
         </ul>
       </nav>
     </div>

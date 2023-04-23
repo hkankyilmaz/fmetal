@@ -1,5 +1,5 @@
 .productsNav {
-  padding: 200px;
+  padding: 120px 50px;
   display: flex;
   background-color: #e6e6e6;
 }
@@ -34,4 +34,25 @@
 }
 hr {
   margin-top: 3px;
+}
+
+@media (max-width: 900px) {
+  .productsNav {
+    flex-direction: column;
+  }
+  .productInfo,
+  .productList {
+    width: 100%;
+  }
+  .productList {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 650px) {
+  .productsNav {
+    padding: 120px 10px;
+  }
+  .productInfo {
+    padding: 1rem 1rem;
+  }
 }

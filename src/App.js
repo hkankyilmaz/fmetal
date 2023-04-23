@@ -16,7 +16,7 @@ import ProductSeven from "./componenets/productDetail/Ekstrüzyon/index";
 import ProductNine from "./componenets/productDetail/YanmazKıfayet/index";
 import ProductTen from "./componenets/productDetail/kuyumculukMalzemeleri/index";
 import ProductEleven from "./componenets/productDetail/dokumOcakları";
-import { Routes, Route, Outlet, Link } from "react-router-dom";
+import { Routes, Route, ScrollRestoration } from "react-router-dom";
 
 function App() {
   return (
@@ -60,9 +60,27 @@ function App() {
             path="aluminyum-titanat-seramik-malzeme"
             element={<ProductFive />}
           />
-          <Route path="kalsiyum-silikat-levhalar" element={<p>deneem 2</p>} />
+          <Route
+            path="kalsiyum-silikat-levhalar"
+            element={
+              <p>
+                {" "}
+                <strong>KALSİYUM SİLİKAT LEVHALAR</strong>
+                <br /> <br /> Hazırlanıyor....
+              </p>
+            }
+          />
           <Route path="ekstrüzyon" element={<ProductSeven />} />
-          <Route path="izalosyon-bölümü" element={<p>deneem 2</p>} />
+          <Route
+            path="izalosyon-bölümü"
+            element={
+              <p>
+                {" "}
+                <strong>İZOLASYON BÖLÜMÜ</strong>
+                <br /> <br /> Hazırlanıyor....
+              </p>
+            }
+          />
           <Route path="yanmaz-kiyafet" element={<ProductNine />} />
           <Route path="kuyumculuk-malzemeleri" element={<ProductTen />} />
           <Route path="döküm-ocaklari" element={<ProductEleven />} />

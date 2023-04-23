@@ -1,15 +1,18 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
-const ProductCard = ({ img, text }) => {
+const ProductCard = ({ img, text, url }) => {
   return (
-    <div style={{ backgroundImage: `url(${img})` }} className="card">
-      <p>{text} </p>
-      <span />
-      <p>Detaylar</p>
+    <Link to={url}>
+      <div style={{ backgroundImage: `url(${img})` }} className="card">
+        <p>{text} </p>
+        <span />
+        <p>Detaylar</p>
 
-      <div className="sub-div"></div>
-    </div>
+        <div className="sub-div"></div>
+      </div>
+    </Link>
   );
 };
 

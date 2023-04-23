@@ -3,11 +3,33 @@ import "./style.css";
 
 import { Outlet } from "react-router";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 function ProductNavBar() {
+  const ref = React.useRef();
+  const { pathname } = useLocation();
+
+  React.useEffect(() => {
+    window.scrollTo({
+      top: ref.current.offsetTop - 85,
+      behavior: "smooth",
+    });
+  }, [pathname]);
+
+  const handleClick = (e) => {
+    if (e.target.tagName === "A" && window.innerWidth < 900) {
+      console.log(ref.current.offsetTop);
+      console.log(window);
+      window.scrollTo({
+        top: ref.current.offsetTop - 85,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <main className="productsNav">
-      <aside className="productList">
+      <aside onClick={handleClick} className="productList">
         <h4 style={{ color: "darkred" }}>ÜRÜNLER</h4>
         <hr />
         <ul>
@@ -67,7 +89,7 @@ function ProductNavBar() {
           </li>
         </ul>
       </aside>
-      <div className="productInfo">
+      <div ref={ref} className="productInfo">
         <Outlet />
       </div>
     </main>

@@ -20,20 +20,57 @@ const Products = () => {
         <h2>Ürünlerimiz</h2>
         <span className="line"></span>
         <div className="content">
-          <ProductCard img={card1} text="BASINÇLI DÖKÜM" />
-          <ProductCard img={card2} text="YÜKSEK BASINÇLI DÖKÜM KOVAN İMALATI" />
-          <ProductCard img={card3} text="DÖKÜMHANE YARDIMCI MALZEMELERİ" />
-          <ProductCard img={card4} text="TERMOKULP" />
           <ProductCard
+            url="/urunler/basincli-dokum"
+            img={card1}
+            text="BASINÇLI DÖKÜM"
+          />
+          <ProductCard
+            url="/urunler/yuksek-basincli-dokum-kovan-imalati"
+            img={card2}
+            text="YÜKSEK BASINÇLI DÖKÜM KOVAN İMALATI"
+          />
+          <ProductCard
+            url="/urunler/dokumhane-yardimci-malzemeleri"
+            img={card3}
+            text="DÖKÜMHANE YARDIMCI MALZEMELERİ"
+          />
+          <ProductCard url="/urunler/termokulp" img={card4} text="TERMOKULP" />
+          <ProductCard
+            url="/urunler/aluminyum-titanat-seramik-malzeme"
             img={card5}
             text="ALUMİNYUM TİTANAT SERAMİK MALZEMELER"
           />
-          <ProductCard img={card6} text="KALSİYUM SİLİKAT LEVHALAR" />
-          <ProductCard img={card7} text="EKSTRÜZYON" />
-          <ProductCard img={card8} text="İZOLASYON BÖLÜMÜ" />
-          <ProductCard img={card9} text="YANMAZ KIYAFET" />
-          <ProductCard img={card11} text="KUYUMCULUK MALZEMELERİ" />
-          <ProductCard img={card10} text="DÖKÜM OCAKLARI" />
+          <ProductCard
+            url="/urunler/kalsiyum-silikat-levhalar"
+            img={card6}
+            text="KALSİYUM SİLİKAT LEVHALAR"
+          />
+          <ProductCard
+            url="/urunler/ekstrüzyon"
+            img={card7}
+            text="EKSTRÜZYON"
+          />
+          <ProductCard
+            url="/urunler/izalosyon-bölümü"
+            img={card8}
+            text="İZOLASYON BÖLÜMÜ"
+          />
+          <ProductCard
+            url="/urunler/yanmaz-kiyafet"
+            img={card9}
+            text="YANMAZ KIYAFET"
+          />
+          <ProductCard
+            url="/urunler/kuyumculuk-malzemeleri"
+            img={card11}
+            text="KUYUMCULUK MALZEMELERİ"
+          />
+          <ProductCard
+            url="/urunler/döküm-ocaklari"
+            img={card10}
+            text="DÖKÜM OCAKLARI"
+          />
         </div>
       </div>
     </div>
