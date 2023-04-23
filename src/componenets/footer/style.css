@@ -3,6 +3,8 @@
   background-color: #000;
   color: #eee;
   padding: 3rem 1rem;
+  z-index: 21;
+  position: relative;
 }
 
 .footer .container {
@@ -38,9 +40,9 @@
   margin-bottom: 1rem;
 }
 
-@media (max-width:940px) {
+@media (max-width: 940px) {
   .footer {
-    font-size:12px ;
+    font-size: 12px;
     width: 100%;
   }
 }

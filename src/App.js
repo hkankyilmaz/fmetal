@@ -18,7 +18,25 @@ import ProductTen from "./componenets/productDetail/kuyumculukMalzemeleri/index"
 import ProductEleven from "./componenets/productDetail/dokumOcakları";
 import { Routes, Route, ScrollRestoration } from "react-router-dom";
 
+import { AiOutlineCaretUp } from "react-icons/ai";
+
 function App() {
+  const btnRef = React.useRef();
+
+  React.useEffect(() => {
+    window.addEventListener("scroll", (e) => {
+      if (window.scrollY > 150) btnRef.current.style.display = "block";
+      if (window.scrollY < 150) btnRef.current.style.display = "none";
+    });
+  });
+
+  const handleScroll = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div>
       <Routes>
@@ -86,6 +104,9 @@ function App() {
           <Route path="döküm-ocaklari" element={<ProductEleven />} />
         </Route>
       </Routes>
+      <button onClick={handleScroll} ref={btnRef} className="up-btn">
+        <AiOutlineCaretUp className="icon-up" />
+      </button>
     </div>
   );
 }
