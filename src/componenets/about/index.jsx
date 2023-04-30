@@ -9,16 +9,29 @@ const About = () => {
           <h2>Hakkımızda</h2>
           <span className="line"></span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-            quibusdam iusto aliquam et fuga. Quidem cupiditate sed animi
-            aperiam, itaque ullam architecto aspernatur doloribus hic commodi,
-            obcaecati perferendis facere nemo minus blanditiis facilis ex odio!
-            Dicta laudantium sit dolore quam!
+            Çeliköz Metalurji, döküm için gerekli yardımcı malzemeler,
+            ekipmanlar ve yenilikçi teknolojiler için gerekli yardımcı ekipman
+            ve hammadde çeşitlerini sizlere sunmaktadır. <br />
+            <br />
+            Her malzeme, yüksek kaliteli olarak ve müşteri ihtiyaçlarına en
+            doğru cevabı verecek şekilde seçilir. Çeliköz Metalurji, müşteri
+            memnuniyetine büyük önem verir ve bu nedenle müşterilerine en iyi
+            hizmeti sunmak için çaba gösterir. Müşteri odaklı hizmetleri,
+            ürünlerin kalitesi ve rekabetçi fiyatları, Çeliköz Metalurji'nin
+            sektördeki rakiplerinden öne çıkmasını sağlar. Ayrıca, Çeliköz
+            Metalurji'nin müşterilerine teknik destek sağlama konusunda da
+            uzmanlığı vardır. Şirket, müşterilerinin ihtiyaçlarını anlamak için
+            zaman ayırır ve onlara en iyi üretimi yapmaları için yardımcı
+            ekipman ve hammalzeme seçeneklerini sunar. <br />
+            <br />
+            Ayrıca müşterilerin projelerinde başarılı olmaları için gerekli olan
+            tüm teknik bilgiyi sağlar. Alüminyum enjeksiyon ve döküm,
+            demir-çelik döküm konusunda tecrübe kazanmış mühendis kadrosunun
+            yanında savunma ve havacılık şirketlerinde uzun yıllar çalışmış
+            tecrübeli mühendisleri ile sizlere en iyi ve en doğru hizmeti
+            sunmayı amaçlamaktadır.
           </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt dolor
-            unde, harum mollitia aut et.
-          </p>
+          <p>Mükemmeliyetin Metalurji ile Buluştuğu Yer…</p>
         </div>
       </div>
     </div>

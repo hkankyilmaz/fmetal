@@ -11,25 +11,25 @@ function ProductNavBar() {
 
   React.useEffect(() => {
     window.scrollTo({
-      top: ref.current.offsetTop - 85,
+      top: 0,
       behavior: "smooth",
     });
   }, [pathname]);
 
-  const handleClick = (e) => {
-    if (e.target.tagName === "A" && window.innerWidth < 900) {
-      console.log(ref.current.offsetTop);
-      console.log(window);
-      window.scrollTo({
-        top: ref.current.offsetTop - 85,
-        behavior: "smooth",
-      });
-    }
-  };
+  // const handleClick = (e) => {
+  //   if (e.target.tagName === "A" && window.innerWidth < 900) {
+  //     console.log(ref.current.offsetTop);
+  //     console.log(window);
+  //     window.scrollTo({
+  //       top: ref.current.offsetTop - 85,
+  //       behavior: "smooth",
+  //     });
+  //   }
+  // };
 
   return (
     <main className="productsNav">
-      <aside onClick={handleClick} className="productList">
+      <aside className="productList">
         <h4 style={{ color: "darkred" }}>ÜRÜNLER</h4>
         <hr />
         <ul>
@@ -72,6 +72,7 @@ function ProductNavBar() {
           </li>
           <li>
             <Link to="/urunler/izalosyon-bölümü">İzolasyon Bölümü</Link>
+            <hr />
           </li>
           <li>
             <Link to="/urunler/yanmaz-kiyafet">Yanmaz Kıyafet</Link>

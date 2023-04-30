@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../../images/logo.png";
+import logoOne from "../../images/kırmızı-beyaz.png";
+import logoTwo from "../../images/kırmızı-siyah.png";
 import { Link } from "react-scroll";
 import "./style.css";
 import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const [logo_, setLogo_] = useState(false);
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   let location = useLocation();
@@ -15,25 +18,28 @@ const Navbar = () => {
   useEffect(() => {
     const nav = document.querySelector(".header");
     const hambg = document.querySelector(".hamburger");
+
     window.addEventListener("scroll", fixNav);
 
     function fixNav() {
       if (window.scrollY > 10) {
         nav.classList.add("active");
         hambg.classList.add("active");
+        setLogo_(true);
       } else {
         nav.classList.remove("active");
         hambg.classList.remove("active");
+        setLogo_(false);
       }
     }
   });
 
   return (
-    <div className={`header ${path_ !== "/" ? "products-header" : ""}`}>
+    <div className={`header ${path_ !== "/" ? "" : ""}`}>
       <nav className="navbar">
         <a href="/" className="logo">
           <h1>
-            <img src={logo} alt="logo" />
+            <img src={logo_ ? logoTwo : logoOne} alt="logo" />
           </h1>
         </a>
         <div className="hamburger" onClick={handleClick}>
@@ -51,16 +57,20 @@ const Navbar = () => {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link
-              to="hero"
-              spy={true}
-              smooth={true}
-              offset={-80}
-              duration={500}
-              onClick={closeMenu}
-            >
-              AnaSayfa
-            </Link>
+            {path_ == "/" ? (
+              <Link
+                to="hero"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={500}
+                onClick={closeMenu}
+              >
+                AnaSayfa
+              </Link>
+            ) : (
+              <a href="/"> AnaSayfa</a>
+            )}
           </li>
           {path_ == "/" ? (
             <>
