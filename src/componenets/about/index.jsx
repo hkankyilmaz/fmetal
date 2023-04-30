@@ -31,7 +31,9 @@ const About = () => {
             tecrübeli mühendisleri ile sizlere en iyi ve en doğru hizmeti
             sunmayı amaçlamaktadır.
           </p>
-          <p>Mükemmeliyetin Metalurji ile Buluştuğu Yer…</p>
+          <p style={{ textAlign: "center" }}>
+            Mükemmeliyetin Metalurji ile Buluştuğu Yer…
+          </p>
         </div>
       </div>
     </div>
