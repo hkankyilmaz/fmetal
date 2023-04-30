@@ -16,20 +16,20 @@ function ProductNavBar() {
     });
   }, [pathname]);
 
-  // const handleClick = (e) => {
-  //   if (e.target.tagName === "A" && window.innerWidth < 900) {
-  //     console.log(ref.current.offsetTop);
-  //     console.log(window);
-  //     window.scrollTo({
-  //       top: ref.current.offsetTop - 85,
-  //       behavior: "smooth",
-  //     });
-  //   }
-  // };
+  const handleClick = (e) => {
+    if (e.target.tagName === "A" && window.innerWidth < 900) {
+      console.log(ref.current.offsetTop);
+      console.log(window);
+      window.scrollTo({
+        top: ref.current.offsetTop - 85,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
     <main className="productsNav">
-      <aside className="productList">
+      <aside onClick={handleClick} className="productList">
         <h4 style={{ color: "darkred" }}>ÜRÜNLER</h4>
         <hr />
         <ul>
