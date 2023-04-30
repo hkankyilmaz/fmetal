@@ -10,10 +10,17 @@ function ProductNavBar() {
   const { pathname } = useLocation();
 
   React.useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    if (window.innerWidth > 900) {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    } else {
+      window.scrollTo({
+        top: ref.current.offsetTop - 85,
+        behavior: "smooth",
+      });
+    }
   }, [pathname]);
 
   const handleClick = (e) => {
