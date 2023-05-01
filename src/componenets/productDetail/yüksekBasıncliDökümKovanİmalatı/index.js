@@ -23,6 +23,10 @@ function index() {
       <span className="img-span">
         <img src={photoOne} alt="Alimunyum Titanat" />
       </span>
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

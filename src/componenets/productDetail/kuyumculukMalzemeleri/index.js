@@ -16,6 +16,22 @@ function index() {
         - Grafit conta <br />
         - Sızdırmazlık ekipmanları <br />
         - Yağlayıcı ürün grubu <br />- Termokulp
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </p>
     </div>
   );

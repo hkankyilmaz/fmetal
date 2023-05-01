@@ -84,7 +84,9 @@ function App() {
               <p>
                 {" "}
                 <strong>KALSİYUM SİLİKAT LEVHALAR</strong>
-                <br /> <br /> Hazırlanıyor....
+                <br /> <br /> Hazırlanıyor.... <br /> <br /> <br /> <br />{" "}
+                <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
+                <br /> <br /> <br /> <br /> <br /> <br /> <br />
               </p>
             }
           />
@@ -95,7 +97,9 @@ function App() {
               <p>
                 {" "}
                 <strong>İZOLASYON BÖLÜMÜ</strong>
-                <br /> <br /> Hazırlanıyor....
+                <br /> <br /> Hazırlanıyor.... <br /> <br /> <br /> <br />{" "}
+                <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
+                <br /> <br /> <br /> <br /> <br /> <br /> <br />
               </p>
             }
           />

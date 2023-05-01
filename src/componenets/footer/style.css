@@ -18,6 +18,14 @@
   justify-content: center;
 }
 
+.footer-a {
+  color: white;
+}
+
+.footer-a:hover {
+  color: orange;
+}
+
 .footer li {
   padding: 1rem;
 }
