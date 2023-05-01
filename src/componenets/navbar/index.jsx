@@ -35,7 +35,7 @@ const Navbar = () => {
   });
 
   return (
-    <div className={`header ${path_ !== "/" ? "" : ""}`}>
+    <div className={`header ${path_ !== "/" ? "products-header" : ""}`}>
       <nav className="navbar">
         <a href="/" className="logo">
           <h1>

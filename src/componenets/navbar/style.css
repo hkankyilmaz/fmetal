@@ -23,8 +23,9 @@
   height: 100%;
   padding: 0 1rem;
 }
+
 .products-header {
-  background-color: white;
+  background-color: black;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -34,8 +35,9 @@
   cursor: pointer;
 }
 .products-header .nav-menu a {
-  color: black;
+  color: white;
 }
+
 .header.active {
   background-image: linear-gradient(to right, #fff, #fff);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
@@ -166,14 +168,14 @@ h1 .span-two {
   }
 
   .nav-item {
-    margin: 1.5rem 0;
+    margin: 1rem 0;
   }
 
   .header .navbar img {
     width: 125px;
   }
   .products-header {
-    background-color: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    background-color: black;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.7);
   }
 }
