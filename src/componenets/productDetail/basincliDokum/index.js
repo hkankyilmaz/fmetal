@@ -34,7 +34,7 @@ function index() {
 
       <h6> Pasta Formunda Kalıp Ayırıcı Yağlar</h6>
       <p>
-        <span> - Alsi Paste</span> <br />
+        <span> - AlSi Paste</span> <br />
         Alüminyum pigment bazlı ve paste şeklindeki kalıp ayırıcı yağlardır.
         Kalıp yüzeyine fırça ile uygulanarak, homojen bir film tabakası
         oluşturmaktadır. Metalin, kalıbın girinti ve çıkıntılarına yapışmasını

@@ -23,7 +23,7 @@ function index() {
           <tr>
             <td>AC400</td>
             <td>600</td>
-            <td>500/340 </td>
+            <td>500/475 </td>
           </tr>
           <tr>
             <td>AC500</td>

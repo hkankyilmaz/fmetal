@@ -10,7 +10,7 @@ const Home = () => {
           Bizi Arayın...
         </p>
         <p className="animate__animated animate__fadeInLeft animate__delay-2s">
-          0552-175-34-89
+          0532-175-34-89
         </p>
         <p className="animate__animated animate__fadeInUp">
           Kaliteli Hizmet...
