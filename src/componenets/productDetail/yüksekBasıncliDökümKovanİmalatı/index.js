@@ -5,7 +5,7 @@ import photoOne from "../../../images/yüksekbasınc-two.jpg";
 function index() {
   return (
     <div className="product-info-container">
-      <h4>ALUMİNYUM TİTANAT SERAMİK MALZEMELER</h4>
+      <h4>YÜKSEK BASINCLI DÖKÜM İÇİN KOVAN İMALATI</h4>
       <p style={{ marginBottom: "20px" }}>
         Yüksek basınç döküm makinası (Enjeksiyon döküm) için özel olarak yapmış
         olduğumuz kovan imalatımız müşterilerimizin teknik çizimlerine göre
