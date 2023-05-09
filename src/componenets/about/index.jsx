@@ -26,10 +26,8 @@ const About = () => {
             <br />
             Ayrıca müşterilerin projelerinde başarılı olmaları için gerekli olan
             tüm teknik bilgiyi sağlar. Alüminyum enjeksiyon ve döküm,
-            demir-çelik döküm konusunda tecrübe kazanmış mühendis kadrosunun
-            yanında savunma ve havacılık şirketlerinde uzun yıllar çalışmış
-            tecrübeli mühendisleri ile sizlere en iyi ve en doğru hizmeti
-            sunmayı amaçlamaktadır.
+            demir-çelik döküm konusunda tecrübe kazanmış mühendis kadrosu ile
+            sizlere en iyi ve en doğru hizmeti sunmayı amaçlamaktadır.
           </p>
           <p style={{ textAlign: "center" }}>
             Mükemmeliyetin Metalurji ile Buluştuğu Yer…
