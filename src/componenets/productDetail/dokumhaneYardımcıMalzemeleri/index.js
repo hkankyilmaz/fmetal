@@ -6,116 +6,31 @@ function index() {
     <div className="product-info-container">
       <h4>DÖKÜMHANE YARDIMCI MALZEMELERİ</h4>
       <h5>DÖKÜM POTALARI</h5>
-      <h6>Silisyum Karabür Potaları</h6>
+
       <p>
-        <span> - Ac Tipi Potalar</span> <br />
-        <table>
-          <tr>
-            <td>Size</td>
-            <td>H mm</td>
-            <td>D/d mm</td>
-          </tr>
-          <tr>
-            <td>AC350</td>
-            <td>590 </td>
-            <td>1475/330 </td>
-          </tr>
-          <tr>
-            <td>AC400</td>
-            <td>600</td>
-            <td>500/475 </td>
-          </tr>
-          <tr>
-            <td>AC500</td>
-            <td>650 </td>
-            <td>510/350 </td>
-          </tr>
-          <tr>
-            <td>AC600 </td>
-            <td>680</td>
-            <td>530/380 </td>
-          </tr>
-          <tr>
-            <td>AC800 </td>
-            <td>800</td>
-            <td>560/380 </td>
-          </tr>
-        </table>
+        SİC döküm potaları, en iyi hammaddelerin, yenilikçi teknolojinin ve
+        onlarca yıllık deneyimin ürünüdür.
         <br />
-        <span> - Bu Tipi Potalar</span> <br />
-        <table>
-          <tr>
-            <td>Size</td>
-            <td>H mm</td>
-            <td>D/d mm</td>
-          </tr>
-          <tr>
-            <td>BU200</td>
-            <td>590 </td>
-            <td>525/305 </td>
-          </tr>
-          <tr>
-            <td>BU250</td>
-            <td>630</td>
-            <td>615/355</td>
-          </tr>
-          <tr>
-            <td>BU300</td>
-            <td>700 </td>
-            <td>615/355</td>
-          </tr>
-          <tr>
-            <td>BU350</td>
-            <td>800</td>
-            <td>615/355</td>
-          </tr>
-          <tr>
-            <td>BU400</td>
-            <td>900</td>
-            <td>615/355</td>
-          </tr>
-          <tr>
-            <td>BU500</td>
-            <td>750</td>
-            <td>775/360 </td>
-          </tr>
-          <tr>
-            <td>BU600</td>
-            <td>900</td>
-            <td>775/360 </td>
-          </tr>
-          <tr>
-            <td>BU800</td>
-            <td>1000</td>
-            <td>880/350 </td>
-          </tr>
-        </table>
         <br />
-        <span> - Ac Tipi Potalar</span> <br />
-        <table>
-          <tr>
-            <td>Size</td>
-            <td>H mm</td>
-            <td>D/d mm</td>
-          </tr>
-          <tr>
-            <td>TPC587</td>
-            <td>900 </td>
-            <td>780/340</td>
-          </tr>
-          <tr>
-            <td>TPC800</td>
-            <td>1000 </td>
-            <td>850/350</td>
-          </tr>
-        </table>
+        Pota imalatı;
         <br />
+        SİC potalar, refrakter endüstrisindeki en modern kalıplama ve üretim
+        süreci olan izostatik presleme işlemi kullanılarak üretilmektedir.
+        <br />
+        <br />
+        SİC Döküm Potalarının Faydaları; <br />
+        – Hızlı ısıtma süreleri sayesinde enerji tasarrufu, <br />
+        – Eşit ısı iletimi, <br />
+        – Kimyasal saldırıya karşı büyük ölçüde dirençli, <br />– Düşük cüruf
+        birikimi…
       </p>
+      <br />
+
       <h5>CRUF TEMİZLEME TOZLARI VE DEGAZER TABLETLER</h5>
       <p>
         Demir dışı metallerde ergitme işlemi sırasında atmosferik oksijenle
         girdiği reaksiyon sebebiyle oksitlenmeye uğrar. Döküm öncesinde bu
-        oksitlerin ve diğer katı inklüzyonların eriyik metalden temizlenmesi
+        oksitlerin ve diğer katı ınkluzyonlar eriyik metalden temizlenmesi
         gerekir.
         <br />
         <br />

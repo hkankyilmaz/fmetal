@@ -30,7 +30,7 @@ const About = () => {
             sizlere en iyi ve en doğru hizmeti sunmayı amaçlamaktadır.
           </p>
           <p style={{ textAlign: "center" }}>
-            Mükemmeliyetin Metalurji ile Buluştuğu Yer…
+            ‘’MÜKEMMELİYETİN METALURJİ İLE BULUŞTUĞU YER…’’
           </p>
         </div>
       </div>
