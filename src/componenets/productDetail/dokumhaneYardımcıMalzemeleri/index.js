@@ -30,7 +30,7 @@ function index() {
       <p>
         Demir dışı metallerde ergitme işlemi sırasında atmosferik oksijenle
         girdiği reaksiyon sebebiyle oksitlenmeye uğrar. Döküm öncesinde bu
-        oksitlerin ve diğer katı ınkluzyonlar eriyik metalden temizlenmesi
+        oksitlerin ve diğer katı inklüzyonların eriyik metalden temizlenmesi
         gerekir.
         <br />
         <br />

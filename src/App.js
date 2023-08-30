@@ -16,6 +16,7 @@ import ProductSeven from "./componenets/productDetail/Ekstrüzyon/index";
 import ProductNine from "./componenets/productDetail/YanmazKıfayet/index";
 import ProductTen from "./componenets/productDetail/kuyumculukMalzemeleri/index";
 import ProductEleven from "./componenets/productDetail/dokumOcakları";
+import ProductTwelwe from "./componenets/productDetail/pistonlar"
 import { Routes, Route, ScrollRestoration } from "react-router-dom";
 
 import { AiOutlineCaretUp } from "react-icons/ai";
@@ -68,6 +69,10 @@ function App() {
           <Route
             path="yuksek-basincli-dokum-kovan-imalati"
             element={<ProductTwo />}
+          />
+          <Route
+            path="pistonlar"
+            element={<ProductTwelwe />}
           />
           <Route
             path="dokumhane-yardimci-malzemeleri"

@@ -51,6 +51,10 @@ function ProductNavBar() {
             <hr />
           </li>
           <li>
+            <Link to="/urunler/pistonlar">Pistonlar</Link>
+            <hr />
+          </li>
+          <li>
             <Link to="/urunler/dokumhane-yardimci-malzemeleri">
               Dökümhane Yardımcı Malzemeleri
             </Link>

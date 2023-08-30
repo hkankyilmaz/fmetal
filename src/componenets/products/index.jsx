@@ -30,6 +30,7 @@ const Products = () => {
             img={card2}
             text="YÜKSEK BASINÇLI DÖKÜM KOVAN İMALATI"
           />
+          <ProductCard url="/urunler/pistonlar" img={card2} text="PİSTONLAR" />
           <ProductCard
             url="/urunler/dokumhane-yardimci-malzemeleri"
             img={card3}
