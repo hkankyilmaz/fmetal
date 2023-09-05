@@ -11,7 +11,7 @@ function index() {
             <br />
 
             <p>
-                <h5>Kaplmalı Çelik Piston</h5>
+                <h5>Kaplamalı Çelik Piston</h5>
                 * Üzerindeki özel alaşımlı kaplama, sürtünme basıncını minimuma indirir.<br />
                 * Bakır piston gibi kısa ömürlü değildir.<br />
                 * Bakır piston gibi kısa ömürlü değildir.<br />

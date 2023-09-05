@@ -10,6 +10,7 @@ import card8 from "../../images/izo.jpg";
 import card9 from "../../images/yanmaz.jpeg";
 import card10 from "../../images/dokumocak.jpg";
 import card11 from "../../images/kuy.jpg";
+import card12 from "../../images/piston-image.jpeg";
 import ProductCard from "./productCard";
 import "./style.css";
 
@@ -30,7 +31,7 @@ const Products = () => {
             img={card2}
             text="YÜKSEK BASINÇLI DÖKÜM KOVAN İMALATI"
           />
-          <ProductCard url="/urunler/pistonlar" img={card2} text="PİSTONLAR" />
+          <ProductCard url="/urunler/pistonlar" img={card12} text="PİSTONLAR" />
           <ProductCard
             url="/urunler/dokumhane-yardimci-malzemeleri"
             img={card3}
