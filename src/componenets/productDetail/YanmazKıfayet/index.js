@@ -37,10 +37,7 @@ function index() {
         CE CATIII EN ISO 11612 A1, A2, B1, E2D3 <br /> <br /> F1 EN ISO 11611
         Class 2, Class2 <br /> <br />
       </p>
-      <h5>
-        Alev Almaz Metal Sıçramalara Karşı Alüminize Preox Takviyeli Koruyucu
-        Elbise
-      </h5>
+      <h5>Alüminize Preox Deli Önlüğü</h5>
       <p>
         Maks. Sıcaklık : 500 °C – 1700 °C Özel olarak dış katman radyan ısıyı
         yansıtma özelliğine sahip olma, Alevin ve ısının iç katmanlara geçmesini

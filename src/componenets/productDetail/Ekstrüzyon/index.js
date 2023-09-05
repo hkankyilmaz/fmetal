@@ -7,9 +7,6 @@ function index() {
     <div className="product-info-container">
       <h4>EKSTRÜZYON YAĞLARI</h4>
       <p>
-        Ekstüzyon yöntemi ile aluminyum profil üretim verimliliğini arttırarak{" "}
-        <br />
-        <br />
         <strong> Kalıp Ayırıcı Yağların Genel Özellikleri: </strong>
         <br />
         <br />
